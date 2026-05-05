@@ -24,7 +24,7 @@ return [
     'description' => 'Aprašymas',
     'speakers' => 'Lektoriai',
     'date' => 'Data',
-    'time' => 'Laikas',
+    'time' => 'Laika',
     'address' => 'Adresas',
     'actions' => 'Veiksmai',
     'view' => 'Peržiūra',
