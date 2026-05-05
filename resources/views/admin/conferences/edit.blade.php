@@ -6,6 +6,6 @@
     @csrf
     @method('PUT')
     @include('admin.conferences._form')
-    <button class="btn btn-primary">{{ __('messages.save') }}</button>
+    <button class="btn btn-success">{{ __('messages.save') }}</button>
 </form>
 @endsection
