@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background: #f4f7fb;
+}
+
+.hero-card {
+    border: 1px solid #e7ecf3;
+}
+
+.admin-link-card {
+    color: #1f2937;
+    border: 1px solid #e7ecf3;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-link-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.card {
+    border: 0;
+    border-radius: 1rem;
+}
