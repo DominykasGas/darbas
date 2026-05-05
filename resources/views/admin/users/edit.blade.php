@@ -20,6 +20,6 @@
         <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" value="{{ old('email', $user['email']) }}" required>
         @error('email') <div class="invalid-feedback">{{ $message }}</div> @enderror
     </div>
-    <button class="btn btn-primary">{{ __('messages.save') }}</button>
+    <button class="btn btn-success">{{ __('messages.save') }}</button>
 </form>
 @endsection
